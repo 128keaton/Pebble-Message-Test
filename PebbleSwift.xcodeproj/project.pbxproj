@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AE2EC961D811DD800BEEA4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2EC951D811DD800BEEA4F /* AppDelegate.swift */; };
+		8AE2EC981D811DD800BEEA4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2EC971D811DD800BEEA4F /* ViewController.swift */; };
+		8AE2EC9B1D811DD800BEEA4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE2EC991D811DD800BEEA4F /* Main.storyboard */; };
+		8AE2EC9E1D811DD800BEEA4F /* PebbleSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2EC9C1D811DD800BEEA4F /* PebbleSwift.xcdatamodeld */; };
+		8AE2ECA01D811DD800BEEA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE2EC9F1D811DD800BEEA4F /* Assets.xcassets */; };
+		8AE2ECA31D811DD800BEEA4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE2ECA11D811DD800BEEA4F /* LaunchScreen.storyboard */; };
+		8AE2ECAE1D811DD800BEEA4F /* PebbleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2ECAD1D811DD800BEEA4F /* PebbleSwiftTests.swift */; };
+		8AE2ECB91D811DD800BEEA4F /* PebbleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2ECB81D811DD800BEEA4F /* PebbleSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AE2ECAA1D811DD800BEEA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE2EC8A1D811DD800BEEA4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AE2EC911D811DD800BEEA4F;
+			remoteInfo = PebbleSwift;
+		};
+		8AE2ECB51D811DD800BEEA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE2EC8A1D811DD800BEEA4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AE2EC911D811DD800BEEA4F;
+			remoteInfo = PebbleSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8AE2EC921D811DD800BEEA4F /* PebbleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PebbleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE2EC951D811DD800BEEA4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8AE2EC971D811DD800BEEA4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8AE2EC9A1D811DD800BEEA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8AE2EC9D1D811DD800BEEA4F /* PebbleSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PebbleSwift.xcdatamodel; sourceTree = "<group>"; };
+		8AE2EC9F1D811DD800BEEA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AE2ECA21D811DD800BEEA4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8AE2ECA41D811DD800BEEA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE2ECA91D811DD800BEEA4F /* PebbleSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PebbleSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE2ECAD1D811DD800BEEA4F /* PebbleSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleSwiftTests.swift; sourceTree = "<group>"; };
+		8AE2ECAF1D811DD800BEEA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE2ECB41D811DD800BEEA4F /* PebbleSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PebbleSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE2ECB81D811DD800BEEA4F /* PebbleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleSwiftUITests.swift; sourceTree = "<group>"; };
+		8AE2ECBA1D811DD800BEEA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AE2EC8F1D811DD800BEEA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE2ECA61D811DD800BEEA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE2ECB11D811DD800BEEA4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AE2EC891D811DD800BEEA4F = {
+			isa = PBXGroup;
+			children = (
+				8AE2EC941D811DD800BEEA4F /* PebbleSwift */,
+				8AE2ECAC1D811DD800BEEA4F /* PebbleSwiftTests */,
+				8AE2ECB71D811DD800BEEA4F /* PebbleSwiftUITests */,
+				8AE2EC931D811DD800BEEA4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AE2EC931D811DD800BEEA4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AE2EC921D811DD800BEEA4F /* PebbleSwift.app */,
+				8AE2ECA91D811DD800BEEA4F /* PebbleSwiftTests.xctest */,
+				8AE2ECB41D811DD800BEEA4F /* PebbleSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AE2EC941D811DD800BEEA4F /* PebbleSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8AE2EC951D811DD800BEEA4F /* AppDelegate.swift */,
+				8AE2EC971D811DD800BEEA4F /* ViewController.swift */,
+				8AE2EC991D811DD800BEEA4F /* Main.storyboard */,
+				8AE2EC9F1D811DD800BEEA4F /* Assets.xcassets */,
+				8AE2ECA11D811DD800BEEA4F /* LaunchScreen.storyboard */,
+				8AE2ECA41D811DD800BEEA4F /* Info.plist */,
+				8AE2EC9C1D811DD800BEEA4F /* PebbleSwift.xcdatamodeld */,
+			);
+			path = PebbleSwift;
+			sourceTree = "<group>";
+		};
+		8AE2ECAC1D811DD800BEEA4F /* PebbleSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AE2ECAD1D811DD800BEEA4F /* PebbleSwiftTests.swift */,
+				8AE2ECAF1D811DD800BEEA4F /* Info.plist */,
+			);
+			path = PebbleSwiftTests;
+			sourceTree = "<group>";
+		};
+		8AE2ECB71D811DD800BEEA4F /* PebbleSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AE2ECB81D811DD800BEEA4F /* PebbleSwiftUITests.swift */,
+				8AE2ECBA1D811DD800BEEA4F /* Info.plist */,
+			);
+			path = PebbleSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AE2EC911D811DD800BEEA4F /* PebbleSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE2ECBD1D811DD800BEEA4F /* Build configuration list for PBXNativeTarget "PebbleSwift" */;
+			buildPhases = (
+				8AE2EC8E1D811DD800BEEA4F /* Sources */,
+				8AE2EC8F1D811DD800BEEA4F /* Frameworks */,
+				8AE2EC901D811DD800BEEA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PebbleSwift;
+			productName = PebbleSwift;
+			productReference = 8AE2EC921D811DD800BEEA4F /* PebbleSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8AE2ECA81D811DD800BEEA4F /* PebbleSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE2ECC01D811DD800BEEA4F /* Build configuration list for PBXNativeTarget "PebbleSwiftTests" */;
+			buildPhases = (
+				8AE2ECA51D811DD800BEEA4F /* Sources */,
+				8AE2ECA61D811DD800BEEA4F /* Frameworks */,
+				8AE2ECA71D811DD800BEEA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE2ECAB1D811DD800BEEA4F /* PBXTargetDependency */,
+			);
+			name = PebbleSwiftTests;
+			productName = PebbleSwiftTests;
+			productReference = 8AE2ECA91D811DD800BEEA4F /* PebbleSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8AE2ECB31D811DD800BEEA4F /* PebbleSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE2ECC31D811DD800BEEA4F /* Build configuration list for PBXNativeTarget "PebbleSwiftUITests" */;
+			buildPhases = (
+				8AE2ECB01D811DD800BEEA4F /* Sources */,
+				8AE2ECB11D811DD800BEEA4F /* Frameworks */,
+				8AE2ECB21D811DD800BEEA4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE2ECB61D811DD800BEEA4F /* PBXTargetDependency */,
+			);
+			name = PebbleSwiftUITests;
+			productName = PebbleSwiftUITests;
+			productReference = 8AE2ECB41D811DD800BEEA4F /* PebbleSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AE2EC8A1D811DD800BEEA4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Keaton Burleson";
+				TargetAttributes = {
+					8AE2EC911D811DD800BEEA4F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8AE2ECA81D811DD800BEEA4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8AE2EC911D811DD800BEEA4F;
+					};
+					8AE2ECB31D811DD800BEEA4F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8AE2EC911D811DD800BEEA4F;
+					};
+				};
+			};
+			buildConfigurationList = 8AE2EC8D1D811DD800BEEA4F /* Build configuration list for PBXProject "PebbleSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AE2EC891D811DD800BEEA4F;
+			productRefGroup = 8AE2EC931D811DD800BEEA4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AE2EC911D811DD800BEEA4F /* PebbleSwift */,
+				8AE2ECA81D811DD800BEEA4F /* PebbleSwiftTests */,
+				8AE2ECB31D811DD800BEEA4F /* PebbleSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AE2EC901D811DD800BEEA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE2ECA31D811DD800BEEA4F /* LaunchScreen.storyboard in Resources */,
+				8AE2ECA01D811DD800BEEA4F /* Assets.xcassets in Resources */,
+				8AE2EC9B1D811DD800BEEA4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE2ECA71D811DD800BEEA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE2ECB21D811DD800BEEA4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AE2EC8E1D811DD800BEEA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE2EC981D811DD800BEEA4F /* ViewController.swift in Sources */,
+				8AE2EC9E1D811DD800BEEA4F /* PebbleSwift.xcdatamodeld in Sources */,
+				8AE2EC961D811DD800BEEA4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE2ECA51D811DD800BEEA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE2ECAE1D811DD800BEEA4F /* PebbleSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE2ECB01D811DD800BEEA4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE2ECB91D811DD800BEEA4F /* PebbleSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AE2ECAB1D811DD800BEEA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AE2EC911D811DD800BEEA4F /* PebbleSwift */;
+			targetProxy = 8AE2ECAA1D811DD800BEEA4F /* PBXContainerItemProxy */;
+		};
+		8AE2ECB61D811DD800BEEA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AE2EC911D811DD800BEEA4F /* PebbleSwift */;
+			targetProxy = 8AE2ECB51D811DD800BEEA4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8AE2EC991D811DD800BEEA4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AE2EC9A1D811DD800BEEA4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8AE2ECA11D811DD800BEEA4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AE2ECA21D811DD800BEEA4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8AE2ECBB1D811DD800BEEA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AE2ECBC1D811DD800BEEA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AE2ECBE1D811DD800BEEA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PebbleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.PebbleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8AE2ECBF1D811DD800BEEA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PebbleSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.PebbleSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8AE2ECC11D811DD800BEEA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PebbleSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.PebbleSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PebbleSwift.app/PebbleSwift";
+			};
+			name = Debug;
+		};
+		8AE2ECC21D811DD800BEEA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PebbleSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.PebbleSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PebbleSwift.app/PebbleSwift";
+			};
+			name = Release;
+		};
+		8AE2ECC41D811DD800BEEA4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PebbleSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.PebbleSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PebbleSwift;
+			};
+			name = Debug;
+		};
+		8AE2ECC51D811DD800BEEA4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PebbleSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.128keaton.PebbleSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PebbleSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AE2EC8D1D811DD800BEEA4F /* Build configuration list for PBXProject "PebbleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE2ECBB1D811DD800BEEA4F /* Debug */,
+				8AE2ECBC1D811DD800BEEA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE2ECBD1D811DD800BEEA4F /* Build configuration list for PBXNativeTarget "PebbleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE2ECBE1D811DD800BEEA4F /* Debug */,
+				8AE2ECBF1D811DD800BEEA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AE2ECC01D811DD800BEEA4F /* Build configuration list for PBXNativeTarget "PebbleSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE2ECC11D811DD800BEEA4F /* Debug */,
+				8AE2ECC21D811DD800BEEA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8AE2ECC31D811DD800BEEA4F /* Build configuration list for PBXNativeTarget "PebbleSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE2ECC41D811DD800BEEA4F /* Debug */,
+				8AE2ECC51D811DD800BEEA4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8AE2EC9C1D811DD800BEEA4F /* PebbleSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8AE2EC9D1D811DD800BEEA4F /* PebbleSwift.xcdatamodel */,
+			);
+			currentVersion = 8AE2EC9D1D811DD800BEEA4F /* PebbleSwift.xcdatamodel */;
+			path = PebbleSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8AE2EC8A1D811DD800BEEA4F /* Project object */;
+}
