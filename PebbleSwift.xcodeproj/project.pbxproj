@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1396DD2F2836F6E9A708E40E /* Pods_PebbleSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F970CCD2C96BBFE873680D5 /* Pods_PebbleSwiftTests.framework */; };
+		173448EA6122AA9968645BD5 /* Pods_PebbleSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AE2CE5AD86E6F5EC67C430 /* Pods_PebbleSwift.framework */; };
+		3E7DF06E6388C5C4B8336F4E /* Pods_PebbleSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB1EEC00B5B2025E0A195CC7 /* Pods_PebbleSwiftUITests.framework */; };
 		8AE2EC961D811DD800BEEA4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2EC951D811DD800BEEA4F /* AppDelegate.swift */; };
 		8AE2EC981D811DD800BEEA4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE2EC971D811DD800BEEA4F /* ViewController.swift */; };
 		8AE2EC9B1D811DD800BEEA4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE2EC991D811DD800BEEA4F /* Main.storyboard */; };
@@ -35,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A06FE56F27A2459167B304A /* Pods-PebbleSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PebbleSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PebbleSwift/Pods-PebbleSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		73A26DC210FBF4410FD82CA9 /* Pods-PebbleSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PebbleSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PebbleSwiftTests/Pods-PebbleSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		741C915BB05A9F281FCCDAEA /* Pods-PebbleSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PebbleSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-PebbleSwift/Pods-PebbleSwift.release.xcconfig"; sourceTree = "<group>"; };
+		7459967E55DAD667B0B9CB8F /* Pods-PebbleSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PebbleSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PebbleSwiftUITests/Pods-PebbleSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7843BEC94CAE9C60B4DF7AF9 /* Pods-PebbleSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PebbleSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PebbleSwiftUITests/Pods-PebbleSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82D422FF2317015C00017FA5 /* Pods-PebbleSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PebbleSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PebbleSwiftTests/Pods-PebbleSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86AE2CE5AD86E6F5EC67C430 /* Pods_PebbleSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PebbleSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE2EC921D811DD800BEEA4F /* PebbleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PebbleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE2EC951D811DD800BEEA4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AE2EC971D811DD800BEEA4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		8AE2ECB41D811DD800BEEA4F /* PebbleSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PebbleSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE2ECB81D811DD800BEEA4F /* PebbleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleSwiftUITests.swift; sourceTree = "<group>"; };
 		8AE2ECBA1D811DD800BEEA4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F970CCD2C96BBFE873680D5 /* Pods_PebbleSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PebbleSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1EEC00B5B2025E0A195CC7 /* Pods_PebbleSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PebbleSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				173448EA6122AA9968645BD5 /* Pods_PebbleSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1396DD2F2836F6E9A708E40E /* Pods_PebbleSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7DF06E6388C5C4B8336F4E /* Pods_PebbleSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A69DE744CE5947ED00E50CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86AE2CE5AD86E6F5EC67C430 /* Pods_PebbleSwift.framework */,
+				9F970CCD2C96BBFE873680D5 /* Pods_PebbleSwiftTests.framework */,
+				CB1EEC00B5B2025E0A195CC7 /* Pods_PebbleSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AD1D4DA61F2D484B7236EDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A06FE56F27A2459167B304A /* Pods-PebbleSwift.debug.xcconfig */,
+				741C915BB05A9F281FCCDAEA /* Pods-PebbleSwift.release.xcconfig */,
+				82D422FF2317015C00017FA5 /* Pods-PebbleSwiftTests.debug.xcconfig */,
+				73A26DC210FBF4410FD82CA9 /* Pods-PebbleSwiftTests.release.xcconfig */,
+				7459967E55DAD667B0B9CB8F /* Pods-PebbleSwiftUITests.debug.xcconfig */,
+				7843BEC94CAE9C60B4DF7AF9 /* Pods-PebbleSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8AE2EC891D811DD800BEEA4F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				8AE2ECAC1D811DD800BEEA4F /* PebbleSwiftTests */,
 				8AE2ECB71D811DD800BEEA4F /* PebbleSwiftUITests */,
 				8AE2EC931D811DD800BEEA4F /* Products */,
+				8AD1D4DA61F2D484B7236EDC /* Pods */,
+				4A69DE744CE5947ED00E50CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AE2ECBD1D811DD800BEEA4F /* Build configuration list for PBXNativeTarget "PebbleSwift" */;
 			buildPhases = (
+				E848307BFA062F909B16CF5C /* [CP] Check Pods Manifest.lock */,
 				8AE2EC8E1D811DD800BEEA4F /* Sources */,
 				8AE2EC8F1D811DD800BEEA4F /* Frameworks */,
 				8AE2EC901D811DD800BEEA4F /* Resources */,
+				04387FA820EFF9A8D027FC35 /* [CP] Embed Pods Frameworks */,
+				39D9FAF15E84AB26762B3EEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AE2ECC01D811DD800BEEA4F /* Build configuration list for PBXNativeTarget "PebbleSwiftTests" */;
 			buildPhases = (
+				BD68A78BCE01A714D9589181 /* [CP] Check Pods Manifest.lock */,
 				8AE2ECA51D811DD800BEEA4F /* Sources */,
 				8AE2ECA61D811DD800BEEA4F /* Frameworks */,
 				8AE2ECA71D811DD800BEEA4F /* Resources */,
+				AE5B339423685583203ACB77 /* [CP] Embed Pods Frameworks */,
+				4200A0367BB17C341405F8F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AE2ECC31D811DD800BEEA4F /* Build configuration list for PBXNativeTarget "PebbleSwiftUITests" */;
 			buildPhases = (
+				CD0207E92FD771A5D30A189D /* [CP] Check Pods Manifest.lock */,
 				8AE2ECB01D811DD800BEEA4F /* Sources */,
 				8AE2ECB11D811DD800BEEA4F /* Frameworks */,
 				8AE2ECB21D811DD800BEEA4F /* Resources */,
+				AFB6DCCE3D7152290069E128 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04387FA820EFF9A8D027FC35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PebbleSwift/Pods-PebbleSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39D9FAF15E84AB26762B3EEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PebbleSwift/Pods-PebbleSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4200A0367BB17C341405F8F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PebbleSwiftTests/Pods-PebbleSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE5B339423685583203ACB77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PebbleSwiftTests/Pods-PebbleSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFB6DCCE3D7152290069E128 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PebbleSwiftUITests/Pods-PebbleSwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD68A78BCE01A714D9589181 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD0207E92FD771A5D30A189D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E848307BFA062F909B16CF5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8AE2EC8E1D811DD800BEEA4F /* Sources */ = {
@@ -403,6 +574,7 @@
 		};
 		8AE2ECBE1D811DD800BEEA4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A06FE56F27A2459167B304A /* Pods-PebbleSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PebbleSwift/Info.plist;
@@ -414,6 +586,7 @@
 		};
 		8AE2ECBF1D811DD800BEEA4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741C915BB05A9F281FCCDAEA /* Pods-PebbleSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PebbleSwift/Info.plist;
@@ -425,6 +598,7 @@
 		};
 		8AE2ECC11D811DD800BEEA4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D422FF2317015C00017FA5 /* Pods-PebbleSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PebbleSwiftTests/Info.plist;
@@ -437,6 +611,7 @@
 		};
 		8AE2ECC21D811DD800BEEA4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A26DC210FBF4410FD82CA9 /* Pods-PebbleSwiftTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PebbleSwiftTests/Info.plist;
@@ -449,6 +624,7 @@
 		};
 		8AE2ECC41D811DD800BEEA4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7459967E55DAD667B0B9CB8F /* Pods-PebbleSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PebbleSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +636,7 @@
 		};
 		8AE2ECC51D811DD800BEEA4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7843BEC94CAE9C60B4DF7AF9 /* Pods-PebbleSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PebbleSwiftUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +665,7 @@
 				8AE2ECBF1D811DD800BEEA4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AE2ECC01D811DD800BEEA4F /* Build configuration list for PBXNativeTarget "PebbleSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +674,7 @@
 				8AE2ECC21D811DD800BEEA4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AE2ECC31D811DD800BEEA4F /* Build configuration list for PBXNativeTarget "PebbleSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +683,7 @@
 				8AE2ECC51D811DD800BEEA4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
