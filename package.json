@@ -1,0 +1,28 @@
+{
+    "author": "Keaton Burleson",
+    "dependencies": {},
+    "keywords": [],
+    "name": "messagetest",
+    "pebble": {
+        "displayName": "Messaging Test",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "message[20]"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "8e3bf26f-4a21-4d88-9bcd-64ffef5b9978",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "2.0.0"
+}
